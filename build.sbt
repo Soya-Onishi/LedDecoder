@@ -26,11 +26,10 @@ def javacOptionsVersion(scalaVersion: String): Seq[String] = {
   }
 }
 
-name := "delayer"
-
-version := "3.1.1"
-
-scalaVersion := "2.11.12"
+name := "led-decoder"
+organization := "my.chisel.utils"
+version := "0.0.1"
+scalaVersion := "2.12.4"
 
 crossScalaVersions := Seq("2.11.12", "2.12.4")
 
